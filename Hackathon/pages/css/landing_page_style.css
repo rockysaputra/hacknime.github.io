@@ -104,6 +104,24 @@ header{
     font-size:  0.938rem;
 }
 
+/* dropdown */
+.dropdown .btn{
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    border-radius: 4rem;
+    margin-right: 33rem;
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+}
+
+.dropdown .btn:hover{
+    color: var(--button-color);
+    border: none;
+}
+
 /* User */
 .user{
     display: flex;
@@ -226,14 +244,14 @@ section{
     align-items: center;
     justify-content: space-between;
     background: var(--header-color);
-    padding: 8px 14px;
+    padding: 13px 14px 6px 14px;
     border: 1px solid hsl(200 100% 99% / 5%);
     border-radius: 5px;
     margin-bottom: 2rem;
 }
 
 .heading-title{
-    font-size: 1.2 rem;
+    font-size: 1.6rem;
     font-weight: 500;
     color: var(--text-color);
 }
