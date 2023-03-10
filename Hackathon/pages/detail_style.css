@@ -1,0 +1,33 @@
+•{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F7F5EB;
+}
+:root{
+    --main-color:#F7F5EB;
+    --text-color:black;
+    --header-color:#E9E7DE;
+    --button-color:orange;
+    --button-hover-color:rgb(246,181,49);
+}
+.logo span{
+    color:var(--button-color)
+}
+.text-center{
+    padding-top:60px;
+}
+.image img{
+    width: 250px;
+}
+.judul-anime{
+    margin-left: 15px;
+}
+.p{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+}
